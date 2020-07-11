@@ -1,0 +1,383 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+body {
+    background: #eee;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+#headerBlock {
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    background-color:#d84f57 ;
+}
+
+#headerBlock .container {
+    display: flex;
+    width: 1200px;
+    margin: 0px auto;
+    height: 55px;
+    align-items: center;
+}
+
+#headerBlock .container .leftNav {
+    flex: 1;
+}
+
+#headerBlock .container .rightNav {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* slider block css starts here */
+/*#sliderBlock {
+    position: relative;
+    top: -55px;
+    left: 0px;
+    width: 100%;
+}
+*/
+
+#sliderBlock img {
+    width: 100%;
+    height: 450px;
+}
+
+
+.leftNav section {
+    display: flex;
+}
+
+.leftNav ul,
+.rightNav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.leftNav ul li a,
+.rightNav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 14px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.logo {
+    flex: 1;
+}
+
+.leftmenu {
+    flex: 8;
+}
+.logo a{
+    background-image: url(../images/logo.png);
+    width: 100px;
+    height: 50px;
+    display: flex;
+    text-indent: -9999px;
+}
+.leftNav ul li a:active{
+    font-weight: 600px;
+    border-bottom: 4px solid #fff;
+    transition: ease-in-out 0.6s;
+}
+.leftNav ul li a:hover{
+    color: #f9e7f9;
+}
+
+.fa-user-circle{
+    font-size: 35px;
+    font-weight: lighter;
+    line-height: 20px
+    ;
+}
+.fa-user-chevron-down{
+    margin: 0px 0px 0 6px ;
+}
+.after_user_circle {
+    margin: -24px 21px 0 41px !important;
+    display: block;
+}
+#searchBusesBlock article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+#sliderBlock{
+    background-image: url("../images/safetyplus1.png");
+    background-position: round;
+    
+}
+
+    
+    
+
+input[type="date"]{
+    font-size: 10px;
+    padding: 14.5px 30px !important;
+    box-sizing: border-box;
+}
+#sliderBlock article input ,#sliderBlock article button{
+    padding: 14px 28px 16px 40px;
+    border: none;
+    border-right: 1.3px solid #888;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: none;
+
+    
+
+
+}
+#sliderBlock article button{
+    background:#d74f57;
+    font-size: 14px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.city_icon{
+    position: relative;
+    
+}
+.city_icon i{
+    position: relative;
+    top: 12px;
+    left: 26px;
+ font-size: 20px;
+ margin: -12.1px;
+ padding: 6px 4px;
+}
+#latestUpdateBlock {
+    display: flex;
+    justify-items: center;
+    margin-left: 400px;
+    
+
+}
+#latestUpdateBlock article{
+    display: flex;
+    justify-content: center;
+    background-color: #f3eaea;
+    width: 530px;
+    padding: 10px 20px 10px 20px;
+    box-sizing: border-box;
+    height: 100px;
+    align-items: center;
+    margin-top: -40px;
+       
+
+}
+#latestUpdateBlock article div:nth-child(1){
+    flex:2;
+}
+#latestUpdateBlock article div:nth-child(2){
+    flex:10;
+}
+#latestUpadate article div:nth-child(3){
+    float: 2;
+}
+#bell-on i{
+    color:  #d84e55;
+    font-size: 42px;
+    margin-top: 40px;
+
+}
+#latestUpadateBlock article h4{
+font-size: 15px;
+margin: 0px;
+padding: 0px;
+}
+#latestUpadateBlock article p{
+    font-size: 13px;
+}
+.btn{
+    width: 120px;
+    height: 30px;
+    background-color: #d84e55 ;
+    color: #fff;
+    padding: 4px;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 55px;
+}
+/*---on time  css block starts here ---*/
+#OnTimeBlock > article{
+    width: 1200px;
+    border: 1px solid #cccccc;
+    background: #fff;
+    margin: 60px auto;
+    display: flex;
+    height: 320px;
+
+}
+/*---on time css block ends here---*/
+.leftOnDiv{
+    flex: 1;
+}
+.leftOnDiv p{
+    background: url('../images/ic-shield-red-big.png');
+    height: 88px;
+    width: 88px;
+    background-size: contain;
+    background-repeat:no-repeat ;
+    text-indent: -9999px;
+    margin: 20px;
+
+}
+.rigthOnDiv{
+    flex:8;
+}
+.imag3_hero,.img4_hero{
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+}
+.img3_hero{
+    background-image: url(../images/tip-icon.png);
+}
+.img4_hero{
+    background-image: url('../images/otgText.png');
+    width: 156px;
+    height: 26px;
+}
+.rightInsideFooter {
+    display: flex;
+    margin: 10px;
+
+}
+.rightInsideFooter  div{
+    flex:1;
+}
+/*--on time csss block ends here---*/
+/*--global block presence css starts here--*/
+.globalBlockContent{
+    width: 1200px;
+    margin: 10px auto;
+}
+.globalBlockContent h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: bold;
+}
+.globalBlockContent article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.globalBlockContent article div{
+   flex-basis: 32%;/* or width: 32%;*/
+   background: lightblue;
+   display: flex;
+   height: 200px;
+   justify-content: center;
+   align-items: center;
+    background: lightblue;
+    margin-top: 20px;
+}
+.india p:first-child{
+    background: url(../images/imageSprites.png) !important;
+    height: 80px;
+    width: 123px;
+    background-repeat: no-repeat !important;
+    background-position:0px -294px !important ;
+    text-indent: -9999px;
+
+
+}
+.colombia p:first-child{
+    background: url(../images/imageSprites.png) !important;
+    height: 80px;
+    width: 123px;
+    background-repeat: no-repeat !important;
+    background-position:0px 614px !important ;
+    text-indent: -9999px;
+
+
+}
+.country{
+    text-align: center;
+    text-transform: uppercase;
+    color: #777;
+    font-size: 16px;
+}
+/*---we Promise to deliver starts here---*/
+#promiseBlock{
+    width: 1200px;
+    margin:  0 auto;
+
+}
+#promiseBlock article >header{
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#promiseBlock article>header p img{
+    
+    height: 100px;
+}
+#promiseBlock article>header h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+.mainPromiseContainer{
+    background: #fff;
+    display: flex;
+    margin-top: 50px;
+    border: 1px solid #cccccc87;
+}
+.mainPromiseContainer div{
+    flex: 1;
+    border: 1px solid #cccccc87;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+
+}
+.mainPromiseContainer div img {
+    width: 112px;
+    height: 86px;
+
+}
+.mainPromiseContainer div h5{
+    text-transform: uppercase;
+    color: #444;
+    text-align: center;
+    font-weight: lighter;
+    padding: 30px 30px 0px;
+    height: 25px;
+
+
+}
+.mainPromiseContainer div footer p{
+    font-size: 13px;
+    color: #666;
+    text-align: center;
+    letter-spacing: center;
+    line-height: 23px;
+}
+
+
+    
+
+/*--we promise to deliver ends here---*/
+
+
+
+/*--global block presence css starts here--*/
